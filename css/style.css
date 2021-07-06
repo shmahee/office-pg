@@ -1,0 +1,252 @@
+/* font link here */
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* font link end here */
+
+ul li{
+    list-style: none;
+}
+
+/* navigation part here */
+
+.navigation {
+    background-color: #e4e4e4;
+    height: 58px;
+}
+
+.collapse .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collapse .navbar-nav .nav-item .nav-link {
+    color: #4e4e4e;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #1abb9c;
+    transition: all linear 0.3s;
+}
+
+/* navigation part end here */
+
+
+/* banner part here */
+
+.banner {
+    background: url(../img/banner.png);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.banner h1 {
+    padding-top: 15%;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    color: white;
+}
+
+.banner h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    color: #a8a8a8;
+}
+
+.banner a {
+    font-size: 14pt;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px 28px;
+    background-color: #3f8dbf;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+
+/* banner part end here */
+
+
+
+/* about part here */
+
+.about_img {
+    padding-top: 60px;
+    text-align: center;
+}
+
+/* .about_img:hover{
+    border: 1px solid gray;
+    box-shadow: 5px 10px 20px gray inset;
+    transition: all linear 0.3s;
+} */
+.about_img h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18pt;
+}
+
+.about_img p {
+    font-size: 13pt;
+    font-family: "roboto", sans-serif;
+    color: #878787;
+}
+
+.line {
+    border-bottom: 1px solid gray;
+}
+
+/* about part end here */
+
+
+
+/* work part here */
+
+.work .col-md-12 h5 {
+    font-size: 13pt;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+/* work part end here */
+
+/* protfolio part here */
+
+.h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+}
+
+.h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+.paragraph {
+    font-family: "lato", sans-serif;
+    color: #5c5c5c;
+}
+
+/* protfolio part end here */
+
+
+
+/* review part here */
+
+.review{
+    background-color: #efefef;
+    height: 150px;
+    text-align: center;
+}
+.review img{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.review p{
+    color: #a1a1a1;
+}
+
+/* review part end here */
+
+
+/* footer part here */
+
+.footer{
+    background: url(../img/footer.png);
+    height: 410px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer_txt h5{
+    color: #6c6c6c;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer_txt p{
+    color: #aaaaaa;
+    font-family: 'Roboto', sans-serif;
+}
+
+.media_icon ul{
+    padding: 0;
+    margin: 0;
+}
+.media_icon ul li a i{
+    font-size: 14pt;
+    color: #a89574;
+}
+.media_text p{
+    font-size: 14px;
+    margin: 0;
+    padding: 0px 0px 5px;
+}
+
+.footer_sce ul li a i{
+    font-size: 14pt;
+    color: #a89574;
+}
+.footer_sce {
+    padding-top: 12px;
+}
+.footer_sce ul{
+    padding: 0;
+    margin: 0;
+}
+.footer_sce2 p{
+    font-size: small;
+}
+
+.ft_para h5{
+    color: #6c6c6c;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.ft_para p{
+    color: #aaaaaa;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.foo_bt{
+    color: #aaaaaa;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    text-align: center;
+}
+/* footer part end here */

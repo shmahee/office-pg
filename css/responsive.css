@@ -1,0 +1,212 @@
+/* // No media query for `xs` since this is the default in Bootstrap
+// X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) {
+
+
+    .navbar-toggler {
+        border: 0px;
+    }
+
+    .collapse .navbar-nav .nav-item .nav-link.top {
+        padding-top: 30px;
+    }
+
+    .collapse .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .banner {
+        height: 550px;
+    }
+
+    .banner h1 {
+        font-size: 42px;
+        padding: 60px 26px 10px;
+    }
+
+    .banner h2 {
+        font-size: medium;
+    }
+
+    .about_img h5 {
+        font-size: 18pt;
+    }
+
+    .about_img p {
+        font-size: 11pt;
+    }
+
+    .about_img img {
+        height: 60px;
+    }
+
+    /* line part here */
+
+    .line {
+        display: none;
+    }
+
+    /* line part end here */
+
+    .work .col-md-12 h5 {
+        margin-bottom: 55px;
+    }
+
+    .paragraph {
+        margin-bottom: 60px;
+    }
+
+
+    .review {
+        height: auto;
+    }
+
+    .review p {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    /* footer part here */
+
+    .footer {
+        height: auto;
+    }
+
+    .foo_bt {
+        margin: 0;
+        padding: 12px 0px;
+    }
+
+    /* footer part end here */
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+    /* menu part here */
+
+    .collapse .navbar-nav .nav-item .nav-link.top {
+        padding-top: 30px;
+    }
+
+    .collapse .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        border: 0px;
+    }
+
+
+    /* menu part end here */
+
+
+    /* banner part here */
+
+    .banner h2 {
+        font-size: 15px;
+    }
+
+    .banner h1 {
+        font-size: 60px;
+        padding: 85px 54px 1px;
+    }
+
+
+
+    /* banner part end here */
+
+
+    /* line part here */
+
+    .line {
+        display: none;
+    }
+
+    /* line part end here */
+
+    .work .col-md-12 h5 {
+        margin-bottom: 55px;
+    }
+
+    .paragraph {
+        margin-bottom: 60px;
+    }
+
+
+    .review {
+        height: auto;
+    }
+
+    .review p {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    /* footer part here */
+
+    .footer {
+        height: auto;
+    }
+
+    .foo_bt {
+        margin: 0;
+        padding: 12px 0px;
+    }
+
+    /* footer part end here */
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    /* menu part & banner part here */
+
+    .banner {
+        height: 525px;
+    }
+    .navbar-toggler {
+        border: 0px;
+    }
+
+    /* menu part & banner part end here */
+
+    .about_img {
+        padding-top: 80px;
+    }
+
+    /* footer part here */
+
+    .footer {
+        height: auto;
+    }
+
+    .foo_bt {
+        margin: 0;
+        padding: 12px 0px;
+    }
+
+    /* footer part end here */
+    .about_img p{
+        font-size: 10pt;
+    }
+    .paragraph{
+        font-size: 10pt;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
